@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+     text-align: center;
+    box-sizing: border-box;
+    background-image: url(https://i.pinimg.com/originals/ac/54/a1/ac54a128942c750799c2c1fe144d2467.jpg);
+    background-size: cover; 
+    background-position: fixed; 
+    background-repeat: no-repeat; 
+} 
+
+h1{
+    text-transform: uppercase;
+    color: blueviolet;
+    text-shadow: 5px 5px 5px grey;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.btns{
+    /* background-color: aqua;
+    color: blueviolet;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+    box-shadow: 5px  10px 5px grey;
+    font-weight: 600; */
+   
+}
+
+.container{
+    border-radius: 10px;
+    /* border: 2px solid white; */
+    /* padding: 150px; */
+    /* width: 300px; */
+    width: 50%;
+    /* height: 300px; */
+    /* min-height: 100vh; */
+    margin: auto;
+    box-shadow: 12px 21px 10px 1px grey;
+    /* background-color:bisque; */
+    /* height: fit-content; */
+    
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 30px;
+    margin-bottom: 25px;
+    padding-left:20px;
+}
+input{
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    border-radius: 50px 50px;
+    padding: 10px 40px;
+    font-weight: 14px;
+    font-size: 30px;
+}
+.btns{
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 50px;
+    background: orange;
+}
+
+.btn{
+    border: none;
+    outline: none;
+    padding: 10px 10px;
+    font-size: 10px;
+    border-radius: 40px;
+    background: orange;
+
+}
+.btnw{
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    font-size: 10px;
+    border-radius: 40px;
+    background: orange;
+    margin-left: 2px;
+}
